@@ -1,1 +1,1 @@
-# gestor-peliculas
+# gestor-de-peliculas
