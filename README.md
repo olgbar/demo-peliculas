@@ -44,7 +44,7 @@ La API expone los siguientes endpoints para la gestión de funciones y película
 
 ### Funciones
 
-- (POST) /api/funciones: Crea una nueva función (o múltiples funciones para diferentes horarios).
+- (POST) /api/funciones -> Crea una nueva función (o múltiples funciones para diferentes horarios).
    - Body (JSON):
    ```
    {
@@ -57,13 +57,13 @@ La API expone los siguientes endpoints para la gestión de funciones y película
       "idioma": "Idioma (Español, Subtitulado, Inglés, requerido)"
    }
   ```
-- (GET) /api/funciones/:id: Obtiene una función específica por su ID.
+- (GET) /api/funciones/:id -> Obtiene una función específica por su ID.
 
-- (GET) /api/funciones/pelicula/:peliculaId: Lista las funciones disponibles para una película específica.
+- (GET) /api/funciones/pelicula/:peliculaId -> Lista las funciones disponibles para una película específica.
 
-- (GET) /api/funciones/sucursal/:sucursalId: Lista las funciones disponibles para una sucursal específica.
+- (GET) /api/funciones/sucursal/:sucursalId -> Lista las funciones disponibles para una sucursal específica.
 
-- (GET) /api/funciones/salas-disponibles?sucursalId={id}&fecha={fecha}&hora={hora}: Obtiene las salas disponibles para una sucursal en una fecha y hora determinadas.
+- (GET) /api/funciones/salas-disponibles?sucursalId={id}&fecha={fecha}&hora={hora} -> Obtiene las salas disponibles para una sucursal en una fecha y hora determinadas.
 
 ### Peliculas
 
